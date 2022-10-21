@@ -17,9 +17,9 @@ export async function getStaticProps() {
 export default function Home({ allPostsData }) {
   return (
     <Layout home>
-      <Head>
+      {/* <Head>
         <title>{siteTitle}</title>
-      </Head>
+      </Head> */}
       <section className={utilStyles.headingMd}>
         <p>[Your Self Introduction]</p>
         <p>
